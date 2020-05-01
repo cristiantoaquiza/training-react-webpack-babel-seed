@@ -1,2 +1,4 @@
-const numbers = [0, 1, 2, 3];
-numbers.forEach((number) => console.log(`${number} Hello from Js`));
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<div>Hello from React</div>, document.getElementById('app'));
